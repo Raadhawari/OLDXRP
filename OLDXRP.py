@@ -2,11 +2,11 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Replace with your actual BotFather token
-TOKEN = "8469439715:AAFelgK5npUBlp-O0l5WvoolQgOpci9p5FM"
+TOKEN = "7784400136:AAG0V0XYWli-GMP2kkVjPj82ip6oxdTJVHk"
 bot = telebot.TeleBot(TOKEN)
 
 # Replace with your actual website/domain
-MINING_URL = "https://t.me/xrpmiin_bot?startapp"
+MINING_URL = "https://t.me/xrpmin_bot?startapp"
 
 # Welcome message function
 @bot.message_handler(commands=['start'])
